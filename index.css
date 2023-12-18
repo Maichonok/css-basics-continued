@@ -1,18 +1,30 @@
 html {
-    --main_color: #5a7f72;
-    --background_color: #c8c8c8;
-    --border_styling: 2px solid #9763f6;
+  --main_color: #5a7f72;
+  --background_color: #c8c8c8;
+  --border_styling: 2px solid #9763f6;
 }
 
 p {
-    border-bottom: var(--border_styling);
-    color: var(--main_color);
+  border-bottom: var(--border_styling);
+  color: var(--main_color);
 }
 
 body {
-    background-color: var(--background_color);
+  background-color: var(--background_color);
 }
 
 h1 {
-    border-bottom: var(--border_styling);
+  border-bottom: var(--border_styling);
+}
+
+section .footer .text.bold {
+  font-weight: 700;
+}
+
+section > div > .text {
+  color: yellow;
+}
+
+section + p {
+  color: black;
 }
